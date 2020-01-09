@@ -1,7 +1,6 @@
 <template>
 <briup-fulllayout title="新增地址">
  <div>
-      {{form}}
       <van-cell-group>
         <van-field v-model="form.telephone" placeholder="手机号" />
       </van-cell-group>
